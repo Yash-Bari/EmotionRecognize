@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import tensorflow
 from keras.models import load_model
-model = load_model(r"C:\Users\Yash\emo_2.0.h5")
+model = load_model("emo_2.0.h5")
 emotion_labels = {
     0: 'Angry',
     1: 'Disgust',
